@@ -33,12 +33,14 @@ int main(){
         for(const string& cidade : parte2.second){
             cout << cidade << " ";
         }
+        cout << endl;
     } else if(c == 'g'){
-        auto parte 3 = grafo.guloso();
+        auto parte3 = grafo.guloso();
         cout << parte3.first << endl;
         for(const string& cidade : parte3.second){
             cout << cidade << " ";
         }
+        cout << endl;
     } else{
         cerr << "Erro: Algoritmo não reconhecido." << endl;
         return 1;
