@@ -11,6 +11,7 @@ int main(){
     cin >> c;
     cin >> v >> e;
 
+    //Criação do grafo e adição das estradas com pesos
     Grafo grafo(v);
 
     for(int i = 0; i < e; i++){
@@ -20,6 +21,7 @@ int main(){
         grafo.addEstrada(cidade1, cidade2, distancia);
     }
 
+    //Condicionais para escolha do algoritmo
     if(c == 'b'){
         auto parte1 = grafo.forcaBruta();
         cout << parte1.first << endl;

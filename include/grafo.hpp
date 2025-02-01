@@ -6,7 +6,7 @@
 
 using namespace std;
 
-const int MAX_VALOR = 9999999;
+const int MAX_VALOR = 99999;
 
 class Grafo{
 private:

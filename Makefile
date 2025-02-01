@@ -1,5 +1,5 @@
 CC = g++
-CXFLAGS = -Wall -Wextra -Wpedantic #-Wconversion -Wformat-security -Werror
+CXFLAGS = -Wall -Wextra -Wpedantic -Wconversion -Wformat-security -Werror
 CXDEBUG = -g
 CXVER = -std=c++20
 SRC = src/*.cpp
